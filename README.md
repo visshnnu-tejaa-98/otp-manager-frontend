@@ -22,3 +22,7 @@ const verigyOtp = async (){
 }
 
 ```
+
+
+when we verify OTP then the function returns a responce {status:<true/false>}
+if OTP matches the response.status will return true else it will return false
