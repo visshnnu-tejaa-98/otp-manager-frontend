@@ -1,16 +1,24 @@
 {
-  "name": "node-otp-manager",
-  "version": "1.0.0",
-  "description": "manages otp",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "otp",
-    "otp-manager",
-    "node-otp-manager"
-  ],
-  "author": "visshnnu tejaa",
-  "license": "ISC"
+	"name": "node-otp-manager",
+	"version": "1.0.5",
+	"description": "manages otp",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"otp",
+		"otp-manager",
+		"node-otp-manager"
+	],
+	"author": "visshnnu tejaa",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/visshnnu-tejaa-98/otp-manager-frontend.git"
+	},
+	"bugs": {
+		"url": "https://github.com/visshnnu-tejaa-98/otp-manager-frontend/issues"
+	},
+	"homepage": "https://github.com/visshnnu-tejaa-98/otp-manager-frontend#readme"
 }
