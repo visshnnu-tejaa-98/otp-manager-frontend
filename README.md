@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # otp-manager-node
 
 This is an npm package https://www.npmjs.com/package/otp-manager-node
