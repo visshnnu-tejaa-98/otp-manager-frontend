@@ -1,8 +1,7 @@
-
-
 # otp-manager-node
 
-This is an npm package https://www.npmjs.com/package/otp-manager-node
+This is an npm package
+Here you can experience the working of this package : https://otp-manager-demo.netlify.app/
 
 How to use
 
