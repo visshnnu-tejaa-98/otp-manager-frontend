@@ -1,7 +1,7 @@
 module.exports = {
 	generateOTP: (EMAIL) => {
 		const BACKEND_ENDPOINT = 'https://my-otp-manager.herokuapp.com';
-		const response;
+		let response;
 		// const [email, setEmail] = useState(EMAIL);
 		const data = { EMAIL };
 		const postData = async () => {
@@ -21,6 +21,7 @@ module.exports = {
 	},
 	verifyOTP: (EMAIL, OTP) => {
 		const BACKEND_ENDPOINT = 'https://my-otp-manager.herokuapp.com';
+		let response;
 		let data = { EMAIL, OTP };
 		console.log(data);
 		const getData = async () => {
@@ -36,5 +37,6 @@ module.exports = {
 			return res;
 		};
 		getData();
+		return response;
 	},
 };
